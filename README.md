@@ -1,5 +1,4 @@
-# **Automated Screening System Analysis for Glaucomatous Optic Neuropathy
-**
+# **Automated Screening System Analysis for Glaucomatous Optic Neuropathy**
 
 Romy Ahsan H., Najma Tsaqiba, M. Dzakil Fikri
 
