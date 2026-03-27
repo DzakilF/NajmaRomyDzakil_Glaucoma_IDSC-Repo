@@ -23,8 +23,8 @@ The Hillel Yaffe Glaucoma Dataset (HYGD) provides gold-standard GON annotations,
 
 We use *EfficientNetV2-S* as our primary architecture for image pattern recognition. *EfficientNetV2 *is an evolution of the Convolutional Neural Networks (CNN) that optimizes the balance between mathematical efficiency and hardware speed. While the previous *EfficientNetV1 *relied solely on *MBConv *blocks to reduce parameter counts, *EfficientNetV2 *introduced Fused-*MBConv* blocks in the early stages. This approach replaces the depthwise convolutions with dense 3 x 3 operations, significantly increasing accuracy while maintaining a lightweight model footprint.
 
-![Accuracy vs Training
-Time and Parameters](Assets/IDSC_image1.jpg)
+<img src="Assets/IDSC_image1.jpg" width="40%" alt="Accuracy vs Training
+Time and Parameters">
 
 Graph (a) shows the trade-off between accuracy (y-axis) and training time (x-axis). It shows that the *EfficientNetV2 *family significantly surpasses *EfficientNetV1 *and Vision Transformers (ViT) in terms of ImageNet top 1 accuracy while keeping a considerably lower training time. Table (b) provides a comparative analysis of parameter efficiency, it shows that EfficientNetV2 achieves comparable performance with only 24 million parameters, it suggests that the hybrid Fused-MBConv captures higher order features with a significantly lower dimensional parameter space.
 
