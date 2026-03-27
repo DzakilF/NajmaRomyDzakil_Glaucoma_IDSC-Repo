@@ -71,7 +71,7 @@ The preprocessed images are stored and can be accessed at:  \
    </td>
   </tr>
   <tr>
-   <td width="40%>
+   <td width="40%">
       <img src="Assets/IDSC_image3.jpg" alt="Confusion Matrix">
 
    </td>
