@@ -52,7 +52,6 @@ EfficientNetV2 offers a superior accuracy to parameter ratio, making it a best c
 
 The images used in this study is publicly available and can be accessed at:  \
 [https://tinyurl.com/GONDatasetImages](https://tinyurl.com/GONDatasetImages)
-
 The preprocessed images are stored and can be accessed at:  \
 [https://tinyurl.com/GONPreprocessedImages](https://tinyurl.com/GONPreprocessedImages)
 
@@ -82,7 +81,7 @@ The preprocessed images are stored and can be accessed at:  \
 
 
 
-The trained model and classification results are available at: \
+The trained model and grayscaled classification images results are available at: \
 [https://tinyurl.com/GONDetectionResults](https://tinyurl.com/GONDetectionResults)
 
 
@@ -108,6 +107,12 @@ Overall, this model is not intended to replace medical professionals but to serv
 
 ## **Citation**
 
-Abramovich, O., Pizem, H., Fhima, J., Berkowitz, E., Gofrit, B., Meisel, M., et al. (2025). *Hillel Yaffe Glaucoma Dataset (HYGD) (Version 1.0.0)*. PhysioNet. [Hillel Yaffe Glaucoma Dataset (HYGD): A Gold-Standard Annotated Fundus Dataset for Glaucoma Detection v1.0.0](https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/)
+Tan, M., & Le, Q. V. (2021). EfficientNetV2: Smaller models and faster training. In M. Meila & T. Zhang (Eds.), Proceedings of the 38th International Conference on Machine Learning (Vol. 139, pp. 10096–10106). PMLR. [https://proceedings.mlr.press/v139/tan21a.html](https://proceedings.mlr.press/v139/tan21a.html)
 
-Tan, M., & Le, Q. V. (2021). *EfficientNetV2: Smaller models and faster training*. In Proceedings of the 38th International Conference on Machine Learning (ICML 2021) (Vol. 139, pp. 10096–10106). PMLR.[ https://arxiv.org/abs/2104.00298](https://arxiv.org/abs/2104.00298)
+Abramovich, O., Pizem, H., Fhima, J., Berkowitz, E., Gofrit, B., Van Eijgen, J., Blumenthal, E., & Behar, J. (2025a). Hillel Yaffe Glaucoma Dataset (HYGD): A Gold-Standard Annotated Fundus Dataset for Glaucoma Detection (version 1.0.0). PhysioNet. RRID:SCR_007345. [https://doi.org/10.13026/z0ak-km33](https://doi.org/10.13026/z0ak-km33)
+
+Abramovich, O., Pizem, H., Fhima, J., Berkowitz, E., Gofrit, B., Van Eijgen, J., Blumenthal, E., & Behar, J. (2025b). GONet: A generalizable deep learning model for glaucoma detection. arXiv. [arxiv.org](arxiv.org)
+
+Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220. RRID:SCR_007345.
+
+Pizer, S. M., Amburn, E. P., Austin, J. D., Cromartie, R., Geselowitz, A., Greer, T., ter Haar Romeny, B., Zimmerman, J. B., & Zuiderveld, K. (1987). Adaptive histogram equalization and its variations. Computer Vision, Graphics, and Image Processing, 39(3), 355–368. [doi.org](doi.org)
